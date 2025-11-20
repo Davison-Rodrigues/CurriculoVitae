@@ -1,0 +1,224 @@
+/*
+#82A2B1
+#7DBDDB
+#1D2C33
+#0D2733
+#43545C
+#788286
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #82A2B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0 0 0 / 30%);
+}
+
+.esquerda {
+    position: relative;
+    padding: 30px;
+    background-color: #0D2733;
+}
+
+.esquerda .TextoProfile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, transparent, rgb(156, 156, 156), transparent) 1;
+}
+
+.esquerda .TextoProfile .imgBox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+}
+.nomeusuario{
+    margin-top: 10px;
+    color: white;
+}
+
+.nomeusuario span {
+    color: rgba(255, 255, 255, 0.836);
+    font-weight: 20;
+}
+
+.titulo {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.InfoContato {
+    padding: 30px;
+}
+
+.InfoContato ul {
+    position: relative;
+}
+
+.InfoContato ul li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.InfoContato .icone {
+    color: #6993a7da;
+    margin-right: 2px;
+}
+
+.InfoContatoEducacao {
+    padding-left: 30px;
+}
+
+.InfoContatoEducacao dl{
+    position: relative;
+}
+
+.InfoContatoEducacao dt {
+    color: #6993a7da;
+    font-size: 13px;
+}
+
+.InfoContatoEducacao dl dd {
+    position: relative;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.PalavraAlt {
+    font-size: 15px;
+    color: #c9d7ddda;
+}
+
+.InfoContatoIdiomas {
+    padding-left: 30px;
+}
+
+.InfoContatoIdiomas .percentual {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: rgba(14, 14, 14, 0.753);
+    display: block;
+    margin-top: 5px;
+}
+
+.InfoContatoIdiomas .percentual div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #90a5afda;
+}
+
+.InfoContatoIdiomas ul li {
+    color: white;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.direita {
+    padding: 30px;
+    position: relative;
+    background-color: white;
+}
+
+.titulo2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #17475e;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.sobre {
+    margin-bottom: 50px;
+}
+.sobre p {
+    margin-bottom: 10px;
+}
+
+.sobre .caixa {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.sobre .caixa .anos {
+    min-width: 180px;
+}
+
+.sobre .caixa .anos h5 {
+    text-transform: uppercase;
+    color: rgb(102, 101, 101);
+    font-weight: 600;
+}
+
+.sobre .caixa .txt h4 {
+    text-transform: uppercase;
+    color: #17475e;
+    font-size: 16px;
+}
+
+.sobre .caixa .bar {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: rgba(163, 163, 163, 0.753);
+    display: block;
+    margin-top: 5px;
+}
+
+.sobre .caixa .bar div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #113749e5;
+}
+
+.sobre .flexivel {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.sobre .icone-sobre {
+    color: #143f53;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
