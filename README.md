@@ -1,2 +1,2 @@
 # CurriculoVitae
-Atividade/Prática
+Atividade/Prática de um currículo simples fictício.

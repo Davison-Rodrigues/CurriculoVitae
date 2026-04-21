@@ -60,7 +60,8 @@ body {
     border-radius: 50%;
     justify-content: center;
 }
-.nomeusuario{
+
+.nomeusuario {
     margin-top: 10px;
     color: white;
 }
@@ -103,7 +104,7 @@ body {
     padding-left: 30px;
 }
 
-.InfoContatoEducacao dl{
+.InfoContatoEducacao dl {
     position: relative;
 }
 
@@ -162,9 +163,11 @@ body {
     text-transform: uppercase;
     margin-bottom: 5px;
 }
+
 .sobre {
     margin-bottom: 50px;
 }
+
 .sobre p {
     margin-bottom: 10px;
 }
@@ -212,7 +215,7 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
     margin-top: 20px;
 }
 
@@ -221,4 +224,3 @@ body {
     margin-right: 5px;
     margin-left: 5px;
 }
-
